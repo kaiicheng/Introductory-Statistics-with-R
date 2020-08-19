@@ -31,7 +31,7 @@ class(numeric_vector)
 length(numeric_vector)
 
 # Character with length of 1
-character_vector <- "¤­¤­¤»¤»"
+character_vector <- "ããã›ã›"
 character_vector
 
 class(character_vector)
@@ -39,7 +39,7 @@ class(character_vector)
 length(character_vector)
 
 # Character with length larger than 1
-character_vector <- c("¤­", "¤­", "¤»", "¤»")
+character_vector <- c("ã", "ã", "ã›", "ã›")
 character_vector
 
 class(character_vector)
@@ -130,7 +130,7 @@ if (dancing_room_is_open & wanna_fight) {
 my_list <- list(
   c(5, 5, 6, 6),
   c(TRUE, TRUE, FALSE, FALSE),
-  "¤­¤­¤»¤»"
+  "ããã›ã›"
 )
 my_list
 
